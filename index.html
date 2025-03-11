@@ -1,63 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            display: flex;
-            flex-direction: row;
-            margin: 20px;
-        }
-        .column {
-            flex: 1;
-            padding: 20px;
-        }
-        .left-column {
-            background-color: #f0f0f0; /* Optional styling */
-        }
-        .right-column {
-            background-color: #ffffff; /* Optional styling */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinar Orazgaliyev - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+    h2 {
+      color: #007acc;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .column {
+      flex: 1;
+      min-width: 300px;
+      max-width: 48%;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Your Title or Profession</p>
-    </header>
-    <div class="container">
-        <div class="column left-column">
-            <h2>Contact Information</h2>
-            <p>Email: your.email@example.com</p>
-            <p>Phone: +123456789</p>
-            
-            <h2>Skills</h2>
-            <ul>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
-            </ul>
-        </div>
-        <div class="column right-column">
-            <h2>Experience</h2>
-            <p><strong>Job Title</strong></p>
-            <p>Company Name, Dates of Employment</p>
-            <p>Description of responsibilities and achievements.</p>
+  <h1>Dinar Orazgaliyev</h1>
+  
+  <div class="container">
+    <div class="column">
+      <h2>Contact Information</h2>
+      <p>📧 <a href="mailto:dinar.orazgaliyev@gmail.com">dinar.orazgaliyev@gmail.com</a></p>
+      <p>📞 +49 15754165627</p>
+      <p>📍 Saarbrucken, Germany</p>
+      <p><a href="https://linkedin.com/in/dinar-orazgaliyev/">LinkedIn</a> | <a href="https://github.com/dinar-orazgaliyev">GitHub</a></p>
 
-            <h2>Education</h2>
-            <p><strong>Degree Name</strong></p>
-            <p>University Name, Graduation Year</p>
-        </div>
+      <h2>Experience</h2>
+      <h3>Research Assistant, DFKI <span>(Sept 2024 - Present) - Saarbrucken, Germany</span></h3>
+      <ul>
+        <li>Exploratory data analysis, data cleaning, and feature engineering on time series data.</li>
+        <li>Building ML pipelines for time series prediction.</li>
+        <li>Training classical models (ARIMA, SARIMA, XGBoost, CatBoost) and deep learning models (TFT, TCN).</li>
+      </ul>
+
+      <h3>Data QA, Sxope <span>(Feb 2024 - Sept 2024) - Remote</span></h3>
+      <ul>
+        <li>Developed SQL test cases within Zephyr, leveraging advanced SQL functions.</li>
+        <li>Utilized BigQuery for querying and analyzing data.</li>
+      </ul>
+
+      <h3>DCS Engineer, KMG Automation <span>(May 2021 – Sept 2023) - Kashagan, Offshore, Kazakhstan</span></h3>
+      <ul>
+        <li>Programmed DCS systems per process specifications.</li>
+        <li>Developed an Excel reporting tool with VBA connected to MSSQL for KPI analysis.</li>
+        <li>Utilized scripting languages such as Shell and Python for automation and troubleshooting.</li>
+      </ul>
+
+      <h3>Automation Engineer, KMG Automation <span>(Dec 2019 – April 2021) - Atyrau, Kazakhstan</span></h3>
+      <ul>
+        <li>Windows Active Directory administration.</li>
+        <li>Network switch configuration.</li>
+      </ul>
+
+      <h3>Data Engineer, Nordal <span>(Apr 2019 - Nov 2019) - Astana, Kazakhstan</span></h3>
+      <ul>
+        <li>Developed SSRS reports using MSSQL.</li>
+        <li>Developed OLAP Warehouse solutions.</li>
+      </ul>
     </div>
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
-    </footer>
+
+    <div class="column">
+      <h2>Education</h2>
+      <h3>MSc in Embedded Systems, Saarland University <span>(2023 – Present) - Saarbrucken, Germany</span></h3>
+      <ul>
+        <li>Courses: Machine Learning, Neural Networks, Generative AI, Statistics, Signal Processing, Competitive Programming</li>
+      </ul>
+
+      <h3>Bachelor in Electrical and Electronic Engineering, Nazarbayev University <span>(2019) - Astana, Kazakhstan</span></h3>
+      <ul>
+        <li>IELTS Overall 8.0</li>
+      </ul>
+
+      <h2>IT Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Python, VBA, C++ (basic)</li>
+        <li><strong>General:</strong> Data Structures & Algorithms, REST API, ETL, Pandas, Matplotlib, Plotly, PyTorch</li>
+        <li><strong>Databases:</strong> MS SQL</li>
+        <li><strong>Cloud:</strong> Azure (basic), BigQuery</li>
+        <li><strong>Version Control:</strong> Git</li>
+        <li><strong>Operating Systems:</strong> Windows, Linux</li>
+      </ul>
+
+      <h2>Languages</h2>
+      <ul>
+        <li>Kazakh - Native</li>
+        <li>Russian - Fluent</li>
+        <li>English - Fluent</li>
+        <li>German - Intermediate</li>
+      </ul>
+
+      <h2>Publications</h2>
+      <ul>
+        <li><a href="https://doi.org/10.1109/SEST.2019.8849052">Adaptive Coordination Mechanism of Overcurrent Relays using Evolutionary Optimization Algorithms</a></li>
+        <li><a href="https://doi.org/10.23919/ICACT.2019.8701996">Towards the Application of Blockchain Technology for Smart Grids in Kazakhstan</a></li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
