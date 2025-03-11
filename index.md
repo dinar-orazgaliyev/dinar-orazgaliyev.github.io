@@ -1,126 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dinar Orazgaliyev - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #0073b1;
-            text-align: center;
-        }
-        h2 {
-            border-bottom: 2px solid #0073b1;
-            padding-bottom: 5px;
-        }
-        .contact {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .contact a {
-            color: #0073b1;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .section {
-            margin-bottom: 20px;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Dinar Orazgaliyev</h1>
-        <p class="contact">
-            📧 <a href="mailto:dinar.orazgaliyev@gmail.com">dinar.orazgaliyev@gmail.com</a> | 📞 +49 15754165627 <br>
-            📍 Saarbrucken, Germany | <a href="https://linkedin.com/in/dinar-orazgaliyev/">LinkedIn</a> | <a href="https://github.com/dinar-orazgaliyev">GitHub</a>
-        </p>
-        
-        <div class="section">
-            <h2>Experience</h2>
-            <p><strong>Research Assistant</strong>, DFKI (Sept 2024 - Present) - Saarbrucken, Germany</p>
-            <ul>
-                <li>Exploratory data analysis, data cleaning, and feature engineering on time series data.</li>
-                <li>Building ML pipelines for time series prediction.</li>
-                <li>Training classical models (ARIMA, SARIMA, XGBoost, CatBoost) and deep learning models (TFT, TCN).</li>
-            </ul>
-            <p><strong>Data QA</strong>, Sxope (Feb 2024 - Sept 2024) - Remote</p>
-            <ul>
-                <li>Developed SQL test cases within Zephyr, leveraging advanced SQL functions.</li>
-                <li>Utilized BigQuery for querying and analyzing data.</li>
-            </ul>
-            <p><strong>DCS Engineer</strong>, KMG Automation (May 2021 – Sept 2023) - Kashagan, Offshore, Kazakhstan</p>
-            <ul>
-                <li>Programmed DCS systems per process specifications.</li>
-                <li>Developed an Excel reporting tool with VBA connected to MSSQL for KPI analysis.</li>
-                <li>Utilized scripting languages such as Shell and Python for automation and troubleshooting.</li>
-            </ul>
-            <p><strong>Automation Engineer</strong>, KMG Automation (Dec 2019 – April 2021) - Atyrau, Kazakhstan</p>
-            <ul>
-                <li>Windows Active Directory administration.</li>
-                <li>Network switch configuration.</li>
-            </ul>
-            <p><strong>Data Engineer</strong>, Nordal (Apr 2019 - Nov 2019) - Astana, Kazakhstan</p>
-            <ul>
-                <li>Developed SSRS reports using MSSQL.</li>
-                <li>Developed OLAP Warehouse solutions.</li>
-            </ul>
-        </div>
+---
+title: "Dinar Orazgaliyev - Resume"
+layout: default
+---
 
-        <div class="section">
-            <h2>Education</h2>
-            <p><strong>MSc in Embedded Systems</strong>, Saarland University (2023 – Present) - Saarbrucken, Germany</p>
-            <p>Courses: Machine Learning, Neural Networks, Generative AI, Statistics, Signal Processing, Competitive Programming</p>
-            <p><strong>Bachelor in Electrical and Electronic Engineering</strong>, Nazarbayev University (2019) - Astana, Kazakhstan</p>
-            <p>IELTS Overall 8.0</p>
-        </div>
+# Dinar Orazgaliyev
+📧 [dinar.orazgaliyev@gmail.com](mailto:dinar.orazgaliyev@gmail.com) | 📞 +49 15754165627  
+📍 Saarbrucken, Germany | [LinkedIn](https://linkedin.com/in/dinar-orazgaliyev/) | [GitHub](https://github.com/dinar-orazgaliyev)
 
-        <div class="section">
-            <h2>IT Skills</h2>
-            <ul>
-                <li><strong>Languages:</strong> Python, VBA, C++ (basic)</li>
-                <li><strong>General:</strong> Data Structures & Algorithms, REST API, ETL, Pandas, Matplotlib, Plotly, PyTorch</li>
-                <li><strong>Databases:</strong> MS SQL</li>
-                <li><strong>Cloud:</strong> Azure (basic), BigQuery</li>
-                <li><strong>Version Control:</strong> Git</li>
-                <li><strong>Operating Systems:</strong> Windows, Linux</li>
-            </ul>
-        </div>
-        
-        <div class="section">
-            <h2>Languages</h2>
-            <ul>
-                <li>Kazakh - Native</li>
-                <li>Russian - Fluent</li>
-                <li>English - Fluent</li>
-                <li>German - Intermediate</li>
-            </ul>
-        </div>
+## Experience
+### Research Assistant, DFKI *(Sept 2024 - Present)* - Saarbrucken, Germany
+- Exploratory data analysis, data cleaning, and feature engineering on time series data.
+- Building ML pipelines for time series prediction.
+- Training classical models (ARIMA, SARIMA, XGBoost, CatBoost) and deep learning models (TFT, TCN).
 
-        <div class="section">
-            <h2>Publications</h2>
-            <ul>
-                <li><a href="https://doi.org/10.1109/SEST.2019.8849052">Adaptive Coordination Mechanism of Overcurrent Relays using Evolutionary Optimization Algorithms</a></li>
-                <li><a href="https://doi.org/10.23919/ICACT.2019.8701996">Towards the Application of Blockchain Technology for Smart Grids in Kazakhstan</a></li>
-            </ul>
-        </div>
-    </div>
-</body>
-</html>
+### Data QA, Sxope *(Feb 2024 - Sept 2024)* - Remote
+- Developed SQL test cases within Zephyr, leveraging advanced SQL functions.
+- Utilized BigQuery for querying and analyzing data.
+
+### DCS Engineer, KMG Automation *(May 2021 – Sept 2023)* - Kashagan, Offshore, Kazakhstan
+- Programmed DCS systems per process specifications.
+- Developed an Excel reporting tool with VBA connected to MSSQL for KPI analysis.
+- Utilized scripting languages such as Shell and Python for automation and troubleshooting.
+
+### Automation Engineer, KMG Automation *(Dec 2019 – April 2021)* - Atyrau, Kazakhstan
+- Windows Active Directory administration.
+- Network switch configuration.
+
+### Data Engineer, Nordal *(Apr 2019 - Nov 2019)* - Astana, Kazakhstan
+- Developed SSRS reports using MSSQL.
+- Developed OLAP Warehouse solutions.
+
+## Education
+### MSc in Embedded Systems, Saarland University *(2023 – Present)* - Saarbrucken, Germany
+- Courses: Machine Learning, Neural Networks, Generative AI, Statistics, Signal Processing, Competitive Programming
+
+### Bachelor in Electrical and Electronic Engineering, Nazarbayev University *(2019)* - Astana, Kazakhstan
+- IELTS Overall 8.0
+
+## IT Skills
+- **Languages:** Python, VBA, C++ (basic)
+- **General:** Data Structures & Algorithms, REST API, ETL, Pandas, Matplotlib, Plotly, PyTorch
+- **Databases:** MS SQL
+- **Cloud:** Azure (basic), BigQuery
+- **Version Control:** Git
+- **Operating Systems:** Windows, Linux
+
+## Languages
+- Kazakh - Native
+- Russian - Fluent
+- English - Fluent
+- German - Intermediate
+
+## Publications
+- [Adaptive Coordination Mechanism of Overcurrent Relays using Evolutionary Optimization Algorithms](https://doi.org/10.1109/SEST.2019.8849052)
+- [Towards the Application of Blockchain Technology for Smart Grids in Kazakhstan](https://doi.org/10.23919/ICACT.2019.8701996)
