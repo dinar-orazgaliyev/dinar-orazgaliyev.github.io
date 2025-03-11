@@ -3,7 +3,7 @@ title: "Dinar Orazgaliyev - Resume"
 layout: default
 ---
 
-# Dinar Orazgaliyev
+
 📧 [dinar.orazgaliyev@gmail.com](mailto:dinar.orazgaliyev@gmail.com) | 📞 +49 15754165627  
 📍 Saarbrucken, Germany | [LinkedIn](https://linkedin.com/in/dinar-orazgaliyev/) | [GitHub](https://github.com/dinar-orazgaliyev)
 
